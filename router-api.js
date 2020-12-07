@@ -1,7 +1,7 @@
 const apiRouter = require('express').Router()
-const userController = require('./contollers/userController')
-const postController = require('./contollers/postController')
-const followController = require('./contollers/followController')
+const userController = require('./controllers/userController')
+const postController = require('./controllers/postController')
+const followController = require('./controllers/followController')
 const cors = require('cors')
 
 apiRouter.use(cors())
